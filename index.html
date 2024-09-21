@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">BEEFIT</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#blog">Blogs</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="login.html">Login</a></li>
+    </nav>
+
+
+    <!--section1-->
+    <section>
+        <div class="section1">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>Everyone needs good health</h1>
+                    </div>
+                    <div class="content">
+                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit,<br>Cum qui necessitatibus tempore <br>perspiciatis, nesciunt sint autem amet magni dolores <br>ea? Laboriosam deserunt iste <br>quidem repellendus <br>unde amet impedit tenetur neque.</p>
+                    </div>
+                </div>
+                <div class="image-section">
+                    <img src="section1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!---calori counter-->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <div class="heading">
+            <h1>Calorie Counter</h1>
+        </div>
+
+        <div id="bmr-calculator" class="wrapper">
+            <div class="calculator">
+                <div class="choose-gender">
+                    <div class="segmented-control"><input id="calc-gender-male" type="radio" name="gender" value="male"
+                        checked=""><label for="calc-gender-male">Male</label></div>
+                        <div class="segmented-control">
+                            <input id="calc-gender-female" type="radio" name="gender" value="female"><label
+                            for="calc-gender-female">Female</label>
+                        </div>
+                    </div>
+                    <label for="calc-age" id="calc-age_value">Age: 25</label>
+                    <input id="calc-age" type="range" value="25" min="13" max="100">
+                    <label for="calc-height" id="calc-height_value">Height: 180cm</label>
+                    <input id="calc-height" type="range" value="180" min="80" max="250">
+                    <label for="calc-weight" id="calc-weight_value">Weight: 80kg</label>
+                    <input id="calc-weight" type="range" value="80" min="40" max="200">
+                    <label for="calc-walking" id="calc-walking_value">Walking: 2 hours per week</label>
+                    <input id="calc-walking" type="range" value="2" min="0" max="50">
+                    <label for="calc-cardio" id="calc-cardio_value">Cardio: 1 hour per week</label>
+                    <input id="calc-cardio" type="range" value="1" min="0" max="50">
+                </div>
+                <div class="results">
+                    <div id="calc-target-gain">
+                        To Gain Weight:<br>
+                <span>2700 calories</span>
+            </div>
+            <div id="calc-target-maintain">
+                To Maintain:<br>
+                <span>2400 calories</span>
+            </div>
+            <div id="calc-target-lose">
+                To Lose Weight:<br>
+                <span>1900 calories </span>
+            </div>
+        </div>
+    </div>
+    <script src="./cc.js"></script>
+
+
+
+    <!--- about us-->
+    <div class="section" id="about"></div>
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About us</h1>
+                </div>
+                <div class="content">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit,<br>
+                         Cum qui necessitatibus tempore <br>perspiciatis, nesciunt sint 
+                         autem amet magni dolores <br>
+                         ea? Laboriosam deserunt iste <br>
+                         quidem repellendus <br>
+                         unde amet impedit tenetur neque.</p>
+                         <div class="btn">
+                            <a href="">Read More</a>
+                         </div>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="image.jpg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <div class="team">
+        <h1>Our Team</h1>
+        <div class="content">
+            <div class="card">
+                <div class="box">
+                    <img src="srishti1.jpg">
+                    <div class="info">
+                        <div class="name">Srishti Jain</div>
+                        <div class="details">Web Developer</div>
+                        <div class="social-links">
+                            <a href="#link"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="#link"><i class="fab fa-instagram"></i></a>
+                            <a href="#link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="neha1.jpg">
+                    <div class="info">
+                        <div class="name">Neha Sharma</div>
+                        <div class="details">Web Developer</div>
+                        <div class="social-links">
+                            <a href="#link"><i class="fa-solid fa-envelope"></i></i></a>
+                            <a href="#link"><i class="fab fa-instagram"></i></a>
+                            <a href="#link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="gargi.jpg">
+                    <div class="info">
+                        <div class="name">Gargi Sharma</div>
+                        <div class="details">Web Developer</div>
+                        <div class="social-links">
+                            <a href="#link"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="#link"><i class="fab fa-instagram"></i></a>
+                            <a href="#link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="boy.png">
+                    <div class="info">
+                        <div class="name">Chirag</div>
+                        <div class="details">Web Developer</div>
+                        <div class="social-links">
+                            <a href="#link"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="#link"><i class="fab fa-instagram"></i></a>
+                            <a href="#link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <!---blog-->
+    <div class="blog-container" id="blog">
+        <!-- Blog Card 1 -->
+        <div class="blog-card">
+            <h2>Juice Blog</h2>
+            <img src="blog1.webp" alt="Blog Image 1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <div class="hover-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="blog-card">
+            <h2>Fruit Salad Blog</h2>
+            <img src="blog2.jpg" alt="Blog Image 2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <div class="hover-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="blog-card">
+            <h2>Vegetable Blog</h2>
+            <img src="blog3.jpg" alt="Blog Image 3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <div class="hover-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer0"><h1>Code Crushers</h1></div>
+        <div class="footer1">
+            Connect with us at 
+            <div class="social-media">
+                <a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="product">
+                <div class="heading">Products</div>
+                <div class="div">Sell Your Products</div>
+                <div class="div">Advertise</div>
+                <div class="div">Pricing</div>
+                <div class="div">Product Buisness</div>
+            </div>
+            <div class="services">
+                <div class="heading">Services</div>
+                <div class="div">Return</div>
+                <div class="div">Cash Back</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Others</div>
+            </div>
+            <div class="Company">
+                <div class="heading">Company</div>
+                <div class="div">Complaint</div>
+                <div class="div">Careers</div>
+                <div class="div">Affiliate Marketing</div>
+                <div class="div">Support</div>
+            </div>
+            <div class="Get Help">
+                <div class="heading">Get Help</div>
+                <div class="div">Help Center</div>
+                <div class="div">Privacy Policy</div>
+                <div class="div">Terms</div>
+                <div class="div">Login</div>
+            </div>
+        </div>
+        <div class="footer3">Copyright © <h4>Code Crushers</h4> 2021-2028</div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="blog.js"></script>
+
+    
+</body>
+</html>
